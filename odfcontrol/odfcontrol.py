@@ -32,9 +32,9 @@ import os, sys, subprocess, shutil, glob, tarfile, gzip
 
 # Local application imports
 # from .version import VERSION, SAS_RELEASE, SAS_AKA
-from pysas.logger import TaskLogger as TL
-from pysas.configutils import initializesas, sas_cfg
-from pysas.wrapper import Wrapper as w
+from ..logger import TaskLogger as TL
+from ..configutils import initializesas, sas_cfg
+from ..wrapper import Wrapper as w
 
 
 # __version__ = f'odfcontrol (startsas-{VERSION}) [{SAS_RELEASE}-{SAS_AKA}]' 
