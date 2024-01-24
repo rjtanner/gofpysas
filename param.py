@@ -53,7 +53,7 @@ import glob
 from beautifultable import BeautifulTable
 
 # Local application imports
-from pysas.error import Error as Err
+from .error import Error as Err
 
 
 class paramXmlInfoReader:

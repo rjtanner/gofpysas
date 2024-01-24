@@ -53,7 +53,7 @@ from contextlib import suppress
 # Third party imports
 
 # Local application imports
-from pysas.param import paramXmlInfoReader
+from .param import paramXmlInfoReader
 
 class ParseArgs:
     def __init__(self, taskname, arglist):

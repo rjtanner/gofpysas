@@ -28,7 +28,7 @@ import subprocess
 # Third party imports
 
 # Local application imports
-from pysas.sastask import MyTask
+from .sastask import MyTask
 
 
 class Wrapper:

@@ -114,9 +114,9 @@ import os
 # Third party imports
 
 # Local application imports
-from pysas.param import paramXmlInfoReader
-from pysas.parser import ParseArgs
-from pysas.runtask import RunTask
+from .param import paramXmlInfoReader
+from .parser import ParseArgs
+from .runtask import RunTask
 
 
 # Class SASTask
